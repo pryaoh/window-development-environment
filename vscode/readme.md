@@ -1,7 +1,6 @@
 # Visual Studio Code 
 
 
-
 ## 설치
 VS CODE는 다음과 같이 설치합니다.
 
@@ -45,7 +44,13 @@ VS CODE는 다음과 같이 설치합니다.
 - *Ctrl b*: 사이드바 전환
 - *Ctrl \\*: 편집창 나누기
 
+## 테마
+
+- [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+
 ## 세팅
+
 
 
 ## 참고
