@@ -16,15 +16,16 @@ Microsoft Store와 Github 에서 다운로드 받을수 잇습니다.
 
 - [Nerd Font](https://www.nerdfonts.com/font-downloads) 설치
 
-- 기본 세팅
+- 테마 설정
 ```Powershell
 wget -Uri "https://raw.github.com/pryaoh/windows-development-environment/main/terminal/settings.json"
 ```
+
 - Oh My Posh 설정
 ```Powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
-curl -o $home\powerlevel10k_lean_with_git_status.omp.json https://gist.githubusercontent.com/MeganaD/2d1a501c2eb2642303831306ca5cb385/raw
-Add-Content $PROFILE "`noh-my-posh init pwsh --config ~/powerlevel10k_lean_with_git_status.omp.json | Invoke-Expression"
+curl -o $home\${theme_name}.omp.json ${theme_url}
+Add-Content $PROFILE "`noh-my-posh init pwsh --config ~/${theme_name}.omp.json | Invoke-Expression"
 . $PROFILE
 ```
 - 터미널 아이콘 설정
@@ -39,4 +40,5 @@ Get-ChildItem -Path . -Force
 
 - [Windows 터미널 설치](https://docs.microsoft.com/ko-kr/windows/terminal/get-started)
 - [Oh-My-Posh](https://ohmyposh.dev/)
+- [Theme](https://ohmyposh.dev/docs/themes)
 - [Terminal 아이콘](https://github.com/devblackops/Terminal-Icons)
