@@ -14,6 +14,10 @@ Microsoft Store와 Github 에서 다운로드 받을수 잇습니다.
 
 ## 세팅
 
+- Nerd Font 설치
+  https://www.nerdfonts.com/font-downloads
+
+
 - 기본 세팅
 ```Powershell
 wget -Uri "https://raw.github.com/pryaoh/windows-development-environment/main/terminal/settings.json"
