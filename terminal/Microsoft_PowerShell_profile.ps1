@@ -1,5 +1,5 @@
 # oh my posh
-oh-my-posh init pwsh --config ~/powerlevel10k_lean_with_git_status.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config ~/${themeName}.omp.json | Invoke-Expression
 
 # icon
 import-module -Name Terminal-Icons
